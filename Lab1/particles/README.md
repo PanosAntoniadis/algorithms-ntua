@@ -5,4 +5,4 @@
  
  ## Use:
   - Run __g++ -o particles -Wall -Wextra particles.cpp__ to compile the source code.
-  - Run __./test_particles testcases__ to test the program for certain testcases.
+  - Run __./test_particles.sh testcases__ to test the program for certain testcases.
