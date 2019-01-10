@@ -4,4 +4,4 @@
  
  ## Use:
   - Run __g++ -o credit -Wall -Wextra credit.cpp__ to compile the source code.
-  - Run __./test_credit testcases__ to test the program for certain testcases.
+  - Run __./test_credit.sh testcases__ to test the program for certain testcases.
