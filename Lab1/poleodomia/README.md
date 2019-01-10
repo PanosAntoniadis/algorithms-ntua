@@ -5,4 +5,4 @@
  
  ## Use:
   - Run __g++ -o poleodomia -Wall -Wextra poleodomia.cpp__ to compile the source code.
-  - Run __./test_poleodomia testcases__ to test the program for certain testcases.
+  - Run __./test_poleodomia.sh testcases__ to test the program for certain testcases.
