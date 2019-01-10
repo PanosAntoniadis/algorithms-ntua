@@ -9,7 +9,7 @@ double distance(int u, double start_time, double curr_time){
     return u * (curr_time - start_time);
 }
 
-int nextCrash(double l, double r, int L){
+double nextCrash(double l, double r, int L){
     //cout << "Left:" << l << "Right:" << r << endl;
     if (l <= r){
         int N = tA.size();
@@ -80,10 +80,10 @@ int nextCrash(double l, double r, int L){
 }
 
 int main(){
-    // Read N, L, K
+    /* Read N, L, K */
     int N, L, K, i;
     cin >> N >> L >> K;
-    // Read starting time and velocity of each particle
+    /* Read starting time and velocity of each particle */
     int temp1, temp2;
     for(i = 0; i < N; i++){
         cin >> temp1 >> temp2;
@@ -95,10 +95,11 @@ int main(){
         tB.push_back(temp1);
         uB.push_back(temp2);
     }
-
-    float m = 0;
+    /* Find next crash K times. Each time start searching 
+     * for the next crash after time m where m is the time
+     * of the previous crash */
+    double m = 0;
     for(i = 0; i < K; i++){
-        //cout << m << endl;
         m = nextCrash(m, L, L);
     }
 
