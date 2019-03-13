@@ -1,6 +1,6 @@
 ## This folder conains the following files: 
- - creosote.cpp : contains the source code of the solution.
- - test_creosote.sh : a Bourne shell script that runs the program for each testcase and check its validity.
+ - __creosote.cpp :__ contains the source code of the solution.
+ - __test_creosote.sh :__ a Bourne shell script that runs the program for each testcase and check its validity.
  
  ## Use:
   - Run __g++ -o creosote -Wall -Wextra creosote.cpp__ to compile the source code.
